@@ -1,0 +1,27 @@
+//Program to print a message.
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+ 
+  /*printf("Hello World!\n");*/
+  printf("abcd\n");
+  printf("56\n");
+  //printf("My name is Shivani\n");
+  //printf("I am learning C\n.");
+}
+  
+
+/*
+Example explained
+Line 1: #include <stdio.h> is a header file library that lets us work with input and output functions, 
+such as printf() (used in line 4). Header files add functionality to C programs.
+
+Line 2: A blank line. C ignores white space. But we use it to make the code more readable.
+
+Line 3: Another thing that always appear in a C program, is main(). This is called a function. Any code inside its curly brackets {} will be executed.
+
+Line 4: printf() is a function used to output/print text to the screen. In our example it will output "Hello World".
+
+Note: Every C statement ends with a semicolon ;
+*/
