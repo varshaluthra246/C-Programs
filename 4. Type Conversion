@@ -1,0 +1,43 @@
+//Type Conversion
+#include <stdio.h>
+
+int main() {
+  int x = 5;
+  int y = 2;
+  int sum = 5 / 2;
+
+  printf("%d\n", sum);
+  
+  //Implicit Conversion
+ // Automatic conversion: int to float
+  float myFloat = 9;
+
+  printf("%lf\n", myFloat);
+  // Automatic conversion: float to int
+  int myInt = 9.99;
+
+  printf("%d\n", myInt);
+  
+   float sum2 = 5 / 2;
+
+  printf("%f\n", sum2);  // 2.000000
+  
+  //Explicit Conversion
+   // Manual conversion: int to float
+  float sum3 = (float) 61 / 2;
+
+  printf("%f\n", sum3);
+  
+   int num1 = 5;
+  int num2 = 2;
+  float sum4 = (float) num1 / num2;
+
+  printf("%f\n", sum4);
+  
+    int num = 5;
+  int num12 = 2;
+  float sum5 = (float) num / num12;
+
+  printf("%.1f\n", sum5);
+  return 0;
+}
