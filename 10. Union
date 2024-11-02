@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	union result{
+		int marks;
+		char grade;
+		float per;
+	} r;
+		struct result1{
+		int marks;
+		char grade;
+		float per;
+	} r1;
+	r.marks = 90;
+	printf("marks : %d\n", r.marks);
+	r.grade = 'A';
+	printf("grade : %c\n", r.grade);
+	r.per = 85.5;
+	printf("per : %f\n", r.per);
+	printf("size of union: %d",sizeof(r));
+	printf("size of structure: %d",sizeof(r1));
+}
