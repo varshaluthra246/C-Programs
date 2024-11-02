@@ -1,0 +1,74 @@
+// variables 
+#include <stdio.h>
+int main() {
+  int a = 15;
+   float b = 5.6;
+   int a1 = 100;
+ //printf(a); // Nothing happens
+  
+  //Format Specifiers
+   printf("%d\n", a1);
+    printf("%d\n", a);
+    
+     printf("%d\n", a1);
+   
+    printf("%f\n",b);
+     printf("%d\n", a1);
+
+  // Create variables
+  int n = 15;              // Integer (whole number)
+  float f = 5.99;     // Floating point number
+  char l = 'D';         // Character
+  
+  // Print variables
+  printf("%d\n", n);
+  printf("%f\n", f);
+  printf("%c\n", l);
+  
+    int myNum2 = 15;
+  printf("My favorite number is: %d\n", n);
+  
+  char myLetter2 = 'D';
+  printf("My number is %d and my letter is %c\n", myNum2, myLetter2);
+
+  //change variable values
+
+  int myNum = 15; // myNum is 15
+  myNum = 10; // Now myNum is 10
+  
+  printf("%d   %d", myNum,myNum);
+
+
+   int x = 5, y=6;
+ // int y = 6;
+  int sum = x + y;
+  printf("%d\n", sum);
+  printf("%d\n",x+y);
+  
+//Declare Multiple Variables
+  int a = 5, b = 6, c = 50;
+  printf("%d\n",a);
+  printf("%d\n",b);
+  printf("%d\n",c);
+  int sum2 = a+b+c;
+  printf("%d\n",sum2);
+  printf("%d\n", a + b + c);
+  
+//same value to multiple variables of the same type:
+ int x1, y2, z2;
+  x1 = y2 = z2 = 50;
+  printf("%d", x1 + y2 + z2);
+
+ // Student data
+  int studentID = 15;
+  int studentAge = 23;
+  float studentFee = 75.25;
+  char studentGrade = 'B';
+
+  // Print variables
+  printf("Student id: %d\n", studentID);
+  printf("Student age: %d\n", studentAge);
+  printf("Student fee: %f\n", studentFee);
+  printf("Student grade: %c", studentGrade);
+  return 0;
+  }
