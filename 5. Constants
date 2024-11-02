@@ -1,0 +1,21 @@
+//Constants
+#include <stdio.h>
+
+int main() {
+ /* const int myNum = 15;
+  myNum = 10;
+  
+  printf("%d", myNum);
+  */
+//const keyword
+  const int minutesPerHour = 60;
+  const float PI = 3.14;
+
+  printf("%d\n", minutesPerHour);
+  printf("%f\n", PI);
+  
+  const int BIRTHYEAR = 1980;
+  
+  printf("%d", BIRTHYEAR);
+  return 0;
+}
