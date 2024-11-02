@@ -1,0 +1,17 @@
+//Sizeof Operator
+//The memory size (in bytes) of a data type or a variable can be found with this operator
+#include <stdio.h>
+
+int main() {
+ int myInt=20;
+ float myFloat=5.6;
+ double myDouble=4.5678;
+ char myChar='S';
+ 
+ printf("%lu\n", sizeof(myInt=20));
+ printf("%lu\n", sizeof(myFloat));
+ printf("%lu\n", sizeof(myDouble));
+ printf("%lu\n", sizeof(myChar));
+  
+  return 0;
+}
