@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int i = 25;
+  float j = 75.5;
+  char k = "a";
+  int *p1;
+  float *p2;
+  char *p3;
+  p1 = &i;
+  p2 = &j;
+  p3 = &k;
+  printf("value of integer:%d\n",i);
+	printf("value of integer:%d\n",*p1);
+	printf("value of integer:%f\n",j);
+  printf("value of integer:%f\n",*p2);
+  printf("value of integer:%\n",k);
+  printf("value of integer:%c\n",*p3);        
+}
