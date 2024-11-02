@@ -3,14 +3,11 @@
 #include<conio.h>
 int main()
  {
- 
   /*printf("Hello World!\n");*/
   printf("abcd\n");
   printf("56\n");
   //printf("My name is Shivani\n");
   //printf("I am learning C\n.");
-}
-  
 
 /*
 Example explained
@@ -25,3 +22,27 @@ Line 4: printf() is a function used to output/print text to the screen. In our e
 
 Note: Every C statement ends with a semicolon ;
 */
+
+//2. C New Lines
+
+  printf("Hello World!\n");
+  printf("I am learning C.");
+  // 2nd way
+printf("Hello World!\nI am learning C.\nAnd it is awesome!");
+//3rd way
+ printf("Hello World!\n\n");
+  printf("I am learning C.");
+
+//3. some others escape characters
+
+//	printf("My name is "varsha");
+	// a) \t
+  printf("Hello World!\t");
+  printf("I am learning C.");
+  //b) 
+    printf("Hello World!\\");
+  printf("I am learning C.");
+  //c) 
+  printf("They call him \'varsha\'.");
+
+}
