@@ -1,0 +1,30 @@
+//String Library functions
+#include<stdio.h>
+#include <string.h>
+main (){
+   char a[30] = "Hello";
+   int l;
+   l = strlen(a);
+   printf("length of the string = %d", l);
+
+  // b) strcpy (Destination string, Source String);
+    char a[50], b[50];
+   printf ("enter a source string");
+   scanf("%s", a);
+   printf("enter destination string");
+   scanf("%s",b);
+   strcpy ( b,a);
+   printf("copied string = %s",b);
+
+   //c) strcat (Destination String, Source string);
+   char a[50] = "Hello";
+   char b[20] = "Good Morning";
+   printf("concatenated string = %s", strcat(b,a));
+
+   //d) strrev (string)
+    char a[50] ;
+   printf ("enter a string");
+   gets (a);
+   strrev (a);
+   printf("reversed string = %s",a);
+}
